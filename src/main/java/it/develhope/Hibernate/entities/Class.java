@@ -1,4 +1,4 @@
-package it.develhope.Hibernate;
+package it.develhope.Hibernate.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table
+@Table(name = "Classes")
 public class Class {
 
     @Id

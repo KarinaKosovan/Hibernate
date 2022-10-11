@@ -1,9 +1,9 @@
-package it.develhope.Hibernate;
+package it.develhope.Hibernate.entities;
 
 import javax.persistence.*;
 
 @Entity
-@Table
+@Table(name = "Enrollments")
 public class Enrollment {
 
     @Id

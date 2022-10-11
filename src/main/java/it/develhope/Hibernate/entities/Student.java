@@ -1,4 +1,4 @@
-package it.develhope.Hibernate;
+package it.develhope.Hibernate.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
